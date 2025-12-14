@@ -1,0 +1,16 @@
+ev_id,INTEGER,A unique identifier for the EV taxi.
+ev_model,STRING,Human readable feature for the brand and make of the EV
+range_km,FLOAT,Distance the EV can travel in kilometres on a complete battery charge.
+charge,BINARY,1 represents a charge and 0 represents no charge required.
+start_date,TIMESTAMP,The date when a taxi fare starts in day/month/year
+start_time,TIMESTAMP,"Time when a taxi fare starts , rounded to the nearest 15 minutes."
+end_date,TIMESTAMP,The date when a taxi fare ends in day/month/year
+end_time,TIMESTAMP,"Time when a taxi fare ends , rounded to the nearest 15 minutes."
+period,INTEGER,A 24 hour day broken into 7 periods representing sections of a day
+day,INTEGER,Representing the day of the week 
+trip_km,FLOAT,Distance of the trip in kilometres.
+trip_miles,FLOAT,Distance of the trip in miles.
+pickup,INTEGER,The Community Area ID where the taxi fare/trip began.
+dropoff,INTEGER,The Community Area ID where the taxi fare/trip ended. Also the location where an EV could potentially charge.
+fare,FLOAT,The cost of the taxi fare in US$.
+trip_total,FLOAT,"Total cost of the trip, the total of the fare, tips, tolls, and extras."
