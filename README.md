@@ -1,3 +1,5 @@
+Original Repo: https://github.com/QUT-Trusted-Networks-Lab/Electric-Vehicle-Next-Charge-Location-Prediction
+
 Kia_Soul ist ein Beispieldatensatz, zum einlesen in Batch_Padding. Daten beziehen sich nur auf den September.
 
 Bei lokaler Ausführung, virtuelle Umgebung erstellen:
